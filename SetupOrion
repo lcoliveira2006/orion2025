@@ -5279,7 +5279,7 @@ services:
       - REDIS_URL=redis://chatwoot${1:+_$1}_redis:6379
 
       ## 🗄️ Dados do Postgres
-      - POSTGRES_HOST=pgvector
+      - POSTGRES_HOST=postgres
       - POSTGRES_USERNAME=postgres
       - POSTGRES_PASSWORD=$senha_pgvector ## Senha do postgres
       - POSTGRES_DATABASE=chatwoot${1:+_$1}
@@ -5385,7 +5385,7 @@ services:
       - REDIS_URL=redis://chatwoot${1:+_$1}_redis:6379
 
       ## 🗄️ Dados do Postgres
-      - POSTGRES_HOST=pgvector
+      - POSTGRES_HOST=postgres
       - POSTGRES_USERNAME=postgres
       - POSTGRES_PASSWORD=$senha_pgvector ## Senha do postgres
       - POSTGRES_DATABASE=chatwoot${1:+_$1}
@@ -14278,7 +14278,7 @@ services:
       - REDIS_PREFIX=chatwoot_nestor${1:+_$1}_
 
       ## Dados do Postgres
-      - POSTGRES_HOST=pgvector
+      - POSTGRES_HOST=postgres
       - POSTGRES_USERNAME=postgres
       - POSTGRES_PASSWORD=$senha_pgvector ## Senha do postgres
       - POSTGRES_DATABASE=chatwoot_nestor${1:+_$1}
@@ -14385,7 +14385,7 @@ services:
       - REDIS_PREFIX=chatwoot_nestor${1:+_$1}_
 
       ## Dados do Postgres
-      - POSTGRES_HOST=pgvector
+      - POSTGRES_HOST=postgres
       - POSTGRES_USERNAME=postgres
       - POSTGRES_PASSWORD=$senha_pgvector ## Senha do postgres
       - POSTGRES_DATABASE=chatwoot_nestor${1:+_$1}
